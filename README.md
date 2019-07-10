@@ -2,6 +2,7 @@
 # 1. Introduction 
 
 We implement a generalization of Zhang's widely used single camera calibration algorithm to N cameras. Solutions are found through overall optimization of the cameras' parameters. The user can choose which subset of cameras' parameters to re-optimize: re-optimize all parameters, fixed intrinsic parameters or fixed lens distortions.
+![mainFig](DiagramGitHub.png)
 
 # 2.1 Calibration Object
 The toolbox expects the calibration object to be a standard planar checkerboard pattern.
